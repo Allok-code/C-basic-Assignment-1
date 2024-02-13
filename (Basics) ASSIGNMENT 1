@@ -1,0 +1,74 @@
+Q1. How can you output “Physics” and “Wallah” in two different lines in C++ ?
+answer 1:- We can print "physics" and "wallah" in two different lines in c ++ by using endl or \n .
+for example :- 
+#include<iostream>
+using namespace std;
+int main (){
+  
+cout<<"Physics"<<endl<<"Wallah";
+return 0;
+}
+
+Q2. Write a program to print 10 using 2 positive numbers less than 6 in C++ as output.
+answer 2:- 
+
+#include<iostream>
+using namespace std;
+int main (){
+  int x = 5;
+  int y = 5;
+  cout<<x+y;
+return 0;
+}
+
+Q3. How much space does the following data types take?
+(a) int
+(b) bool
+(c) float
+
+answer 3:- 
+(a)int:- It takes 4 bytes of space in memory.
+(b)bool:- It takes 1 byte of space in memory.
+(c)float:- It takes 4 bytes of space in memory.
+
+
+Q4. What is the output of this program?
+int main() {
+
+int a = 4;
+
+int b = 5;
+
+a++, b--;
+
+cout << ++a << " " << b--;
+
+}
+
+answer 4:- 
+output: 6 4
+
+Q5. Write a program to find the circumference of a circle with radius 10 in C++.
+answer 5:-
+
+ #include<iostream>
+using namespace std;
+int main()
+{
+ //circumference of circle
+ int r = 10;
+ cout<<"circumference of circle : ";
+ cout<<r*2*3.1415;
+ return 0;
+}
+
+Q6. How many of these can be a variable name ?
+1.01Pwskills
+2._FLOAT
+3.int
+4.FLOAT
+5.You will succeed 
+
+answer 6:- the following can be a variable name :-
+2._FLOAT
+4.FLOAT
